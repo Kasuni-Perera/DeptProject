@@ -12,6 +12,7 @@ import java.util.logging.Logger;
  * @author Kasuni Navoda
  */
 public class ConnectionUtil {
+    // create and return connection
     public static Connection getConnection(){
         try {
             Class.forName("com.mysql.jdbc.Driver");
